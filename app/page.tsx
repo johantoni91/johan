@@ -18,8 +18,9 @@ export default function Home() {
         <Experiences />
         <Skills />
         <Project/>
-        <footer className="w-full p-5 text-center">
-          <small className="text-gray-400 font-semibold">Built by Johan Toni Wijaya. All Right Reserved &#169; 2025</small>
+        <footer className="w-full p-5 text-center text-gray-400 font-semibold">
+          <h1 className="text-xl font-bold text-gray-600">~ Still Beta ~</h1>
+          <small>Built by Johan Toni Wijaya. All Right Reserved &#169; 2025</small>
         </footer>
       </div>
       </div>
