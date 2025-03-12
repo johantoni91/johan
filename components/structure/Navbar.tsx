@@ -46,7 +46,7 @@ export function Navbar() {
             : "flex flex-col items-start absolute w-screen top-[3.73rem] right-0 z-40 rounded-bl-xl rounded-br-xl bg-white backdrop-blur-lg shadow-xl dark:bg-black dark:shadow-lg dark:shadow-white"
         }`}>
           <Link className="w-full hover:border-b-2 hover:border-[#03bcf4] hover:rounded-bl-xl hover:rounded-br-xl p-3" href="#about">About</Link>
-          <Link className="w-full hover:border-b-2 hover:border-[#03bcf4] hover:rounded-bl-xl hover:rounded-br-xl p-3" href="#experience">Experiences</Link>
+          <Link className="w-full hover:border-b-2 hover:border-[#03bcf4] hover:rounded-bl-xl hover:rounded-br-xl p-3" href="#experiences">Experiences</Link>
           <Link className="w-full hover:border-b-2 hover:border-[#03bcf4] hover:rounded-bl-xl hover:rounded-br-xl p-3" href="#skills">Skills</Link>
         <Link className="w-full hover:border-b-2 hover:border-[#03bcf4] hover:rounded-bl-xl hover:rounded-br-xl p-3" href="#contact">Contact</Link>
         <div className="w-full hover:border-b-2 hover:border-[#03bcf4] hover:rounded-bl-xl hover:rounded-br-xl p-3">

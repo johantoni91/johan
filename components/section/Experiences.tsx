@@ -5,7 +5,7 @@ export default function Experiences() {
   ];
 
   return (
-    <div className="w-full sm:h-1/2 flex flex-col gap-5 p-5">
+    <div id="experiences" className="w-full sm:h-1/2 flex flex-col gap-5 p-5">
       <h1 className="text-start font-bold text-2xl">Experiences</h1>
       <div className="space-y-6">
       {events.map((event, index) => (

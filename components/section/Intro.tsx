@@ -11,7 +11,7 @@ export default function Intro() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full sm:h-1/2 h-full flex justify-center items-center p-5 flex-wrap-reverse sm:flex-nowrap">
+    <div id="about" className="w-full sm:h-1/2 h-full flex justify-center items-center p-5 flex-wrap-reverse sm:flex-nowrap">
       <div className="w-full h-1/2 flex flex-col justify-center items-start gap-2">
         <span className="inline-flex gap-5 text-xl font-medium text-green-400">
           👋🏼 Hello ! <p className="text-black dark:text-white">I am</p>

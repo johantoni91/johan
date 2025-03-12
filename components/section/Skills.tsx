@@ -14,7 +14,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div className="w-full sm:h-1/2 flex flex-col gap-5 p-5">
+    <div id="skills" className="w-full sm:h-1/2 flex flex-col gap-5 p-5">
       <h1 className="text-start font-bold text-2xl">Skills</h1>
       <div className="flex justify-center items-center gap-10 flex-wrap sm:flex-nowrap">
         <Image src={JS} alt="JS" width={50} height={50} />

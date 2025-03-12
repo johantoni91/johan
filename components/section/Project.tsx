@@ -39,7 +39,7 @@ export default function Project() {
     },
   ];
   return (
-    <div className="relative w-full sm:h-1/2 flex flex-col gap-5 p-5">
+    <div id="projects" className="relative w-full sm:h-1/2 flex flex-col gap-5 p-5">
       <h1 className="text-start font-bold text-2xl">Projects</h1>
       <div className="w-full flex justify-center items-center gap-5 flex-wrap sm:flex-nowrap">
         <Carousel
