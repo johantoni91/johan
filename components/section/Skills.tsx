@@ -16,19 +16,19 @@ export default function Skills() {
   return (
     <div className="w-full sm:h-1/2 flex flex-col gap-5 p-5">
       <h1 className="text-start font-bold text-2xl">Skills</h1>
-      <div className="flex justify-center items-center gap-3 flex-wrap sm:flex-nowrap">
-        <Image src={JS} alt="JS" width={30} height={30} />
-        <Image src={NODEJS} alt="NODEJS" width={30} height={30} />
-        <Image src={HTML} alt="HTML" width={30} height={30} />
-        <Image src={Python} alt="Python" width={30} height={30} />
-        <Image src={ReactIcon} alt="ReactIcon" width={30} height={30} />
-        <Image src={CSS3} alt="CSS3" width={30} height={30} />
-        <Image src={PHP} alt="PHP" width={30} height={30} />
-        <Image src={GIT} alt="GIT" width={30} height={30} />
-        <Image src={RFID} alt="RFID" width={30} height={30} />
-        <Image src={LARAVEL} alt="LARAVEL" width={30} height={30} />
-        <Image src={NEXT} alt="NEXT" width={30} height={30} />
-        <Image src={VUE} alt="VUE" width={30} height={30} />
+      <div className="flex justify-center items-center gap-10 flex-wrap sm:flex-nowrap">
+        <Image src={JS} alt="JS" width={50} height={50} />
+        <Image src={NODEJS} alt="NODEJS" width={50} height={50} />
+        <Image src={HTML} alt="HTML" width={50} height={50} />
+        <Image src={Python} alt="Python" width={50} height={50} />
+        <Image src={ReactIcon} alt="ReactIcon" width={50} height={50} />
+        <Image src={CSS3} alt="CSS3" width={50} height={50} />
+        <Image src={PHP} alt="PHP" width={50} height={50} />
+        <Image src={GIT} alt="GIT" width={50} height={50} />
+        <Image src={RFID} alt="RFID" width={50} height={50} />
+        <Image src={LARAVEL} alt="LARAVEL" width={50} height={50} />
+        <Image src={NEXT} alt="NEXT" width={50} height={50} />
+        <Image src={VUE} alt="VUE" width={50} height={50} />
       </div>
     </div>
   );

@@ -83,15 +83,5 @@ export default {
       },
     },
   },
-	plugins: [require('tailwind-scrollbar-hide'), require("tailwindcss-animate"),
-	  function({
-        addUtilities
-      }) {
-        addUtilities({
-          '.box-reflect': {
-            '-webkit-box-reflect': 'below 1px linear-gradient(transparent, #0004)',
-          },
-        });
-      },
-  ],
+	plugins: [require('tailwind-scrollbar-hide'), require("tailwindcss-animate")],
 } satisfies Config;

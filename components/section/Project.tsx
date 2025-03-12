@@ -8,7 +8,6 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
 import { motion } from "framer-motion";
-import Modal from "../Modal";
 import { useState } from "react";
 
 export default function Project() {
