@@ -9,7 +9,7 @@ export default function ScrollTop() {
   // Show button when user scrolls down
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY > 500) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -31,10 +31,10 @@ export default function ScrollTop() {
       animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
       transition={{ duration: 0.3 }}
       onClick={scrollToTop}
-      className={`fixed bottom-5 right-5 bg-blue-600 text-white p-3 rounded-full shadow-lg transition-opacity ${
-        isVisible ? "opacity-100" : "opacity-0"
+      className={`transition-opacity fixed bottom-5 right-5 p-3 ${
+        isVisible ? "" : "hidden"
       }`}>
-      <FaArrowUp size={20} />
+      <FaArrowUp size={30} />
     </motion.button>
   );
 }

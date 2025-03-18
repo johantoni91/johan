@@ -1,15 +1,10 @@
-import profile from "@/public/favicon.ico";
 import profile1 from "@/public/profile.jpg";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import { useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 export default function Intro() {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <div id="about" className="w-full sm:h-1/2 h-full flex justify-center items-center p-5 flex-wrap-reverse sm:flex-nowrap">
       <div className="w-full h-1/2 flex flex-col justify-center items-start gap-2">
@@ -40,7 +35,7 @@ export default function Intro() {
           href="https://mail.google.com/mail/?view=cm&fs=1&to=johantoniwijaya6@gmail.com&su=Job Application&body=Send%20your%20message%20here."
           target="_blank"
           className="mt-3 px-3 py-1 border-2 rounded-xl text-sm border-[#03bcf4] hover:bg-[#03bcf4] hover:text-white">
-          Hire Me
+          Hire
         </Link>
       </div>
       <div className="w-full h-1/2 justify-center flex items-center">

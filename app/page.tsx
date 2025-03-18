@@ -1,7 +1,9 @@
 "use client";
 import ScrollTop from "@/components/ScrollTop";
 import About from "@/components/section/About";
+import Contact from "@/components/section/Contact";
 import Experiences from "@/components/section/Experiences";
+import Faq from "@/components/section/Faq";
 import Intro from "@/components/section/Intro";
 import Project from "@/components/section/Project";
 import Skills from "@/components/section/Skills";
@@ -17,7 +19,9 @@ export default function Home() {
         <About />
         <Experiences />
         <Skills />
-        <Project/>
+        <Project />
+        <Contact />
+        <Faq />
         <footer className="w-full p-5 text-center text-gray-400 font-semibold">
           <h1 className="text-xl font-bold text-gray-600">~ Still Beta ~</h1>
           <small>Built by Johan Toni Wijaya. All Right Reserved &#169; 2025</small>
