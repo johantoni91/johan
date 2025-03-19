@@ -7,6 +7,7 @@ import Faq from "@/components/section/Faq";
 import Intro from "@/components/section/Intro";
 import Project from "@/components/section/Project";
 import Skills from "@/components/section/Skills";
+import { Analytics } from '@vercel/analytics/next';
 import { Navbar } from "@/components/structure/Navbar";
 
 export default function Home() {
@@ -23,7 +24,9 @@ export default function Home() {
         <Contact />
         <Faq />
         <footer className="w-full p-5 text-center text-gray-400 font-semibold">
-          <h1 className="text-xl font-bold text-gray-600">~ Still Beta ~</h1>
+          <div className="flex justify-center items-center gap-5">
+            <Analytics />
+          </div>
           <small>Built by Johan Toni Wijaya. All Right Reserved &#169; 2025</small>
         </footer>
       </div>
