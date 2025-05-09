@@ -1,6 +1,6 @@
 export default function Experiences() {
   const events = [
-    { date: "November 2023 - Now", title: "PT. Hanatekindo Mulia Abadi", description: "IT Staff", active: true },
+    { date: "November 2023 - May 2025", title: "PT. Hanatekindo Mulia Abadi", description: "IT Staff", active: true },
     { date: "September 2021 - November 2021", title: "PT. Kreatif Solusi Informatika", description: "IT Staff", active: false },
   ];
 
